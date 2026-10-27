@@ -6,6 +6,9 @@
 *.pem
 *.key
 *.pepk
+*.der
+*.pk8
+*.crt
 keystore/
 password.txt
 *password*

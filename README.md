@@ -93,4 +93,9 @@ Kotlin, Jetpack Compose, Android foreground services / NSD / Telecom / Notificat
 ## License
 GPL-3.0-or-later (see [LICENSE](LICENSE)). The link crypto is adapted from Emit, which is GPL-3.0-or-later. Bundled fonts (Oxanium, JetBrains Mono) are under the SIL Open Font License.
 
+### Third-party assets and attribution
+
+- **JetBrains Mono** (`app/src/main/res/font/jbmono_regular.ttf`, `jbmono_bold.ttf`): SIL Open Font License 1.1. See `app/src/main/assets/licenses/JetBrainsMono-OFL.txt`.
+- **Oxanium** (`app/src/main/res/font/oxanium.ttf`): SIL Open Font License 1.1. See `app/src/main/assets/licenses/Oxanium-OFL.txt`.
+
 Note: the Android application id is `com.tyler.primelink`, kept from the original build so updates install over existing copies. Change `applicationId` if you fork it.

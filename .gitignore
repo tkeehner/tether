@@ -1,0 +1,63 @@
+# --- Signing material / secrets (never commit) ---
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.pepk
+keystore/
+password.txt
+*password*
+*.secret
+secrets/
+secrets.*
+.env
+.env.*
+signing.properties
+keystore.properties
+agent.key
+identity.json
+google-services.json
+
+# --- Build artifacts ---
+build/
+dist/
+out/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.zip
+release/
+captures/
+
+# --- Gradle / Kotlin / Android Studio ---
+.gradle/
+.kotlin/
+local.properties
+.idea/
+*.iml
+.cxx/
+.externalNativeBuild/
+.navigation/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# --- Backups / scratch / OS ---
+*.bak
+*.bak*/
+*.orig
+*.tmp
+*.log
+*.tgz
+*.tar.gz
+*~
+.DS_Store
+Thumbs.db
